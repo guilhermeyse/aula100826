@@ -1,8 +1,9 @@
 #aula 10/08 - int float 
 
-nome = "guilherme"
-idade = 21
-altura = 1.80
+nome = input("Informe seu nome completo: ")
+idade = int(input("Informe sua idade: "))
+altura = float(input("Informe sua altura: "))
+peso = float(input("Informe seu peso: "))
 
 print(nome)
 print(idade)
